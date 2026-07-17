@@ -1,1 +1,29 @@
-$(cat /mnt/data/agua-com-gas.svg)
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+<defs>
+<radialGradient id="bg" cx="50%" cy="38%" r="70%"><stop offset="0" stop-color="#404040"/><stop offset=".42" stop-color="#151515"/><stop offset="1" stop-color="#030303"/></radialGradient>
+<linearGradient id="glass" x1="0" x2="1"><stop stop-color="#24435b"/><stop offset=".24" stop-color="#d9f6ff"/><stop offset=".52" stop-color="#8fc4df"/><stop offset=".78" stop-color="#e8fbff"/><stop offset="1" stop-color="#183247"/></linearGradient>
+<linearGradient id="cap" x1="0" x2="1"><stop stop-color="#080808"/><stop offset=".5" stop-color="#555"/><stop offset="1" stop-color="#050505"/></linearGradient>
+<filter id="shadow"><feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000" flood-opacity=".75"/></filter>
+<filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1000" height="560" fill="url(#bg)"/>
+<ellipse cx="500" cy="520" rx="260" ry="30" fill="#000" opacity=".72"/>
+<g filter="url(#shadow)">
+<path d="M455 38h90v62c0 25 54 58 66 117 9 44 22 197 22 236 0 42-37 66-133 66s-133-24-133-66c0-39 13-192 22-236 12-59 66-92 66-117z" fill="url(#glass)" stroke="#d9f7ff" stroke-width="6" opacity=".96"/>
+<rect x="443" y="38" width="114" height="52" rx="13" fill="url(#cap)" stroke="#aaa" stroke-width="4"/>
+<g opacity=".33" stroke="#fff" stroke-width="2"><path d="M459 46v36M474 45v38M489 43v41M504 43v41M519 43v41M534 45v38M549 46v36"/></g>
+<rect x="391" y="235" width="218" height="92" rx="12" fill="#f5f5f5" opacity=".98"/>
+<text x="430" y="295" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="900" fill="#111" transform="rotate(-90 430 295)">crystal</text>
+<path d="M500 250c33 48 58 83 58 112 0 34-25 57-58 57s-58-23-58-57c0-29 25-64 58-112z" fill="#060606" transform="scale(.64) translate(282 177)"/>
+<text x="528" y="265" font-family="Arial" font-size="22" font-weight="700" fill="#286eb9">água mineral natural</text>
+<text x="528" y="301" font-family="Arial" font-size="34" fill="#222">com gás</text>
+<circle cx="560" cy="302" r="18" fill="#111"/>
+<text x="556" y="349" font-family="Arial" font-size="28" font-weight="900" fill="#2875c8">500ml</text>
+<path d="M420 347c34 23 121 20 159 1" fill="none" stroke="#d9f7ff" stroke-width="7" opacity=".75"/>
+<path d="M413 424c46 32 142 31 179 0" fill="none" stroke="#6daac8" stroke-width="5" opacity=".55"/>
+</g>
+<g fill="#fff" opacity=".55" filter="url(#glow)">
+<circle cx="437" cy="150" r="6"/><circle cx="470" cy="177" r="5"/><circle cx="548" cy="153" r="7"/><circle cx="574" cy="202" r="5"/><circle cx="431" cy="392" r="5"/><circle cx="581" cy="390" r="6"/><circle cx="518" cy="438" r="4"/><circle cx="482" cy="126" r="4"/><circle cx="528" cy="121" r="4"/>
+</g>
+<text x="500" y="544" text-anchor="middle" font-family="Arial" font-size="28" font-weight="900" fill="#ffb000">ÁGUA COM GÁS</text>
+</svg>
